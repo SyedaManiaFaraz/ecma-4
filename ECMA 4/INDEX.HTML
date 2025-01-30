@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // GLOBAL FUNCTION
+    // Is Finite
+    console.log(isFinite(null));
+    // Is Nan
+    console.log(isNaN("10"));
+    
+    // DESTRUCTURING ARRAY
+    let fruits = ['apple','mango','kiwi'];
+    let fruit1 = fruits[0];
+    console.log(fruit1);
+     
+    // DESTRUCTURING OBJECT
+    let user={name:'anil' , email:'anil@gmail.com'}
+    let {email}=user
+    console.log(email);
+    
+    // SPREAD OPERATOR
+    let vege =['lady finger','potato','carrot'];
+    function PrintAll(a,b,c){
+        console.log(a,b,c);
+    }
+    PrintAll(vege[0],vege[1],vege[2])
+
+</script>
+</html>
